@@ -1,0 +1,27 @@
+2025-09-10 17:32:39,305 ERROR CLI command failed
+Traceback (most recent call last):
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\rami_binance_bot_project\cli.py", line 66, in main
+    res = place_market_order(args.symbol, args.side, args.quantity)
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\rami_binance_bot_project\src\market_orders.py", line 14, in place_market_order
+    client = get_client()
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\rami_binance_bot_project\src\binance_client.py", line 10, in get_client
+    raise EnvironmentError("Set BINANCE_API_KEY and BINANCE_API_SECRET in environment variables.")
+OSError: Set BINANCE_API_KEY and BINANCE_API_SECRET in environment variables.
+2025-09-10 17:45:30,831 ERROR CLI command failed
+Traceback (most recent call last):
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\cli.py", line 66, in main
+    res = place_market_order(args.symbol, args.side, args.quantity)
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\src\market_orders.py", line 14, in place_market_order
+    client = get_client()
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\src\binance_client.py", line 10, in get_client
+    raise EnvironmentError("Set BINANCE_API_KEY and BINANCE_API_SECRET in environment variables.")
+OSError: Set BINANCE_API_KEY and BINANCE_API_SECRET in environment variables.
+2025-09-10 17:45:51,414 ERROR CLI command failed
+Traceback (most recent call last):
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\cli.py", line 66, in main
+    res = place_market_order(args.symbol, args.side, args.quantity)
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\src\market_orders.py", line 14, in place_market_order
+    client = get_client()
+  File "C:\Users\ramir\OneDrive\Desktop\my_binance_bot\src\binance_client.py", line 10, in get_client
+    raise EnvironmentError("Set BINANCE_API_KEY and BINANCE_API_SECRET in environment variables.")
+OSError: Set BINANCE_API_KEY and BINANCE_API_SECRET in environment variables.
